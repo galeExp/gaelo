@@ -24,7 +24,7 @@
       private lateinit var  pbCarga: ProgressBar
       private lateinit var etxtApellido: EditText
       private lateinit var btnlimpiar: Button
-      private var clicks
+      private var clicks=0
 
       //Zona Oncreate
       override fun onCreate(savedInstanceState: Bundle?) {
