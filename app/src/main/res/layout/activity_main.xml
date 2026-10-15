@@ -21,28 +21,28 @@
     app:layout_constraintVertical_bias="0.55" />
 
   <EditText
-    android:id="@+id/etxtNombre"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="84dp"
-    android:ems="10"
-    android:hint="Ingresa tu nombre"
-    android:inputType="text"
-    app:layout_constraintBottom_toTopOf="@+id/tvSaludo"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.497"
-    app:layout_constraintStart_toStartOf="parent" />
+      android:id="@+id/etxtNombre"
+      android:layout_width="352dp"
+      android:layout_height="59dp"
+      android:layout_marginBottom="84dp"
+      android:ems="10"
+      android:hint="Ingresa tu nombre"
+      android:inputType="text"
+      app:layout_constraintBottom_toTopOf="@+id/tvSaludo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent" />
 
   <EditText
-    android:id="@+id/etxtApellido"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="Ingresa tu Apellido"
-    android:inputType="textPersonName"
-    app:layout_constraintBottom_toTopOf="@+id/tvSaludo"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/etxtNombre" />
+      android:id="@+id/etxtApellido"
+      android:layout_width="355dp"
+      android:layout_height="46dp"
+      android:hint="Ingresa tu Apellido"
+      android:inputType="textPersonName"
+      app:layout_constraintBottom_toTopOf="@+id/tvSaludo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/etxtNombre" />
 
   <Button
     android:id="@+id/btnSaludar"

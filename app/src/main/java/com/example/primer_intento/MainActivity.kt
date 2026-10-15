@@ -74,8 +74,8 @@
           Handler(Looper.getMainLooper()).postDelayed({
               pbCarga.visibility= View.GONE
               tvSaludo.text="HOLA, $nombreCompleto has pusado \n   BIENVENIDO"
-              btnSaludar.isEnabled=true
-              etxtNombre.isEnabled=false
+              btnSaludar.isEnabled=false
+              etxtNombre.isEnabled=true
 
 
           },1500)
